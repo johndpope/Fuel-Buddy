@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		975CA35F1EADE2A500A60F65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 975CA35E1EADE2A500A60F65 /* main.m */; };
+		975CA3621EADE2A500A60F65 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 975CA3611EADE2A500A60F65 /* AppDelegate.m */; };
+		975CA3651EADE2A500A60F65 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 975CA3641EADE2A500A60F65 /* ViewController.m */; };
+		975CA3681EADE2A500A60F65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 975CA3661EADE2A500A60F65 /* Main.storyboard */; };
+		975CA36A1EADE2A500A60F65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 975CA3691EADE2A500A60F65 /* Assets.xcassets */; };
+		975CA36D1EADE2A500A60F65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 975CA36B1EADE2A500A60F65 /* LaunchScreen.storyboard */; };
+		975CA3771EAE025B00A60F65 /* FuelStationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 975CA3761EAE025B00A60F65 /* FuelStationCell.m */; };
+		975CA37B1EAE255500A60F65 /* NavigationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 975CA37A1EAE255500A60F65 /* NavigationView.m */; };
+		975CA37E1EAE3D3100A60F65 /* FuelListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 975CA37D1EAE3D3100A60F65 /* FuelListView.m */; };
+		975CA3821EAE40AB00A60F65 /* FuelStation.m in Sources */ = {isa = PBXBuildFile; fileRef = 975CA3811EAE40AB00A60F65 /* FuelStation.m */; };
+		975CA3861EAE458400A60F65 /* ServerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 975CA3851EAE458400A60F65 /* ServerManager.m */; };
+		975CA3881EAE497300A60F65 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 975CA3871EAE497300A60F65 /* MapKit.framework */; };
+		97666CEC1EAF5C9D003D22C9 /* MarkerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97666CEA1EAF5C9D003D22C9 /* MarkerView.m */; };
+		97666CED1EAF5C9D003D22C9 /* MarkerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97666CEB1EAF5C9D003D22C9 /* MarkerView.xib */; };
+		FA521491985B8B65A33F4E83 /* libPods-Fuel Buddy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FCB35A98D284E833AC4E2BE /* libPods-Fuel Buddy.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1FCB35A98D284E833AC4E2BE /* libPods-Fuel Buddy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Fuel Buddy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		425034F92C1B854E1CA3A54B /* Pods-Fuel Buddy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fuel Buddy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fuel Buddy/Pods-Fuel Buddy.release.xcconfig"; sourceTree = "<group>"; };
+		975CA35A1EADE2A500A60F65 /* Fuel Buddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fuel Buddy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		975CA35E1EADE2A500A60F65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		975CA3601EADE2A500A60F65 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		975CA3611EADE2A500A60F65 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		975CA3631EADE2A500A60F65 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		975CA3641EADE2A500A60F65 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		975CA3671EADE2A500A60F65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		975CA3691EADE2A500A60F65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		975CA36C1EADE2A500A60F65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		975CA36E1EADE2A500A60F65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		975CA3751EAE025B00A60F65 /* FuelStationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FuelStationCell.h; path = cells/FuelStationCell.h; sourceTree = "<group>"; };
+		975CA3761EAE025B00A60F65 /* FuelStationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FuelStationCell.m; path = cells/FuelStationCell.m; sourceTree = "<group>"; };
+		975CA3791EAE255500A60F65 /* NavigationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NavigationView.h; path = views/NavigationView.h; sourceTree = "<group>"; };
+		975CA37A1EAE255500A60F65 /* NavigationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NavigationView.m; path = views/NavigationView.m; sourceTree = "<group>"; };
+		975CA37C1EAE3D3100A60F65 /* FuelListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FuelListView.h; path = views/FuelListView.h; sourceTree = "<group>"; };
+		975CA37D1EAE3D3100A60F65 /* FuelListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FuelListView.m; path = views/FuelListView.m; sourceTree = "<group>"; };
+		975CA3801EAE40AB00A60F65 /* FuelStation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FuelStation.h; path = models/FuelStation.h; sourceTree = "<group>"; };
+		975CA3811EAE40AB00A60F65 /* FuelStation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FuelStation.m; path = models/FuelStation.m; sourceTree = "<group>"; };
+		975CA3841EAE458400A60F65 /* ServerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServerManager.h; path = managers/ServerManager.h; sourceTree = "<group>"; };
+		975CA3851EAE458400A60F65 /* ServerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ServerManager.m; path = managers/ServerManager.m; sourceTree = "<group>"; };
+		975CA3871EAE497300A60F65 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		97666CE91EAF5C9D003D22C9 /* MarkerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MarkerView.h; path = views/markerView/MarkerView.h; sourceTree = "<group>"; };
+		97666CEA1EAF5C9D003D22C9 /* MarkerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MarkerView.m; path = views/markerView/MarkerView.m; sourceTree = "<group>"; };
+		97666CEB1EAF5C9D003D22C9 /* MarkerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MarkerView.xib; path = views/markerView/MarkerView.xib; sourceTree = "<group>"; };
+		CBB2F39A23C6847DA07581C6 /* Pods-Fuel Buddy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fuel Buddy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fuel Buddy/Pods-Fuel Buddy.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		975CA3571EADE2A500A60F65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				975CA3881EAE497300A60F65 /* MapKit.framework in Frameworks */,
+				FA521491985B8B65A33F4E83 /* libPods-Fuel Buddy.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		373E06E8A1BA972FC32A188D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CBB2F39A23C6847DA07581C6 /* Pods-Fuel Buddy.debug.xcconfig */,
+				425034F92C1B854E1CA3A54B /* Pods-Fuel Buddy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		96CA9FA92F895C67B5A82E4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				975CA3871EAE497300A60F65 /* MapKit.framework */,
+				1FCB35A98D284E833AC4E2BE /* libPods-Fuel Buddy.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		975CA3511EADE2A500A60F65 = {
+			isa = PBXGroup;
+			children = (
+				975CA35C1EADE2A500A60F65 /* Fuel Buddy */,
+				975CA35B1EADE2A500A60F65 /* Products */,
+				373E06E8A1BA972FC32A188D /* Pods */,
+				96CA9FA92F895C67B5A82E4A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		975CA35B1EADE2A500A60F65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				975CA35A1EADE2A500A60F65 /* Fuel Buddy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		975CA35C1EADE2A500A60F65 /* Fuel Buddy */ = {
+			isa = PBXGroup;
+			children = (
+				975CA3831EAE456B00A60F65 /* managers */,
+				975CA37F1EAE407C00A60F65 /* models */,
+				975CA3781EAE24F500A60F65 /* views */,
+				975CA3741EAE021A00A60F65 /* cells */,
+				975CA3601EADE2A500A60F65 /* AppDelegate.h */,
+				975CA3611EADE2A500A60F65 /* AppDelegate.m */,
+				975CA3631EADE2A500A60F65 /* ViewController.h */,
+				975CA3641EADE2A500A60F65 /* ViewController.m */,
+				975CA3661EADE2A500A60F65 /* Main.storyboard */,
+				975CA3691EADE2A500A60F65 /* Assets.xcassets */,
+				975CA36B1EADE2A500A60F65 /* LaunchScreen.storyboard */,
+				975CA36E1EADE2A500A60F65 /* Info.plist */,
+				975CA35D1EADE2A500A60F65 /* Supporting Files */,
+			);
+			path = "Fuel Buddy";
+			sourceTree = "<group>";
+		};
+		975CA35D1EADE2A500A60F65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				975CA35E1EADE2A500A60F65 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		975CA3741EAE021A00A60F65 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				975CA3751EAE025B00A60F65 /* FuelStationCell.h */,
+				975CA3761EAE025B00A60F65 /* FuelStationCell.m */,
+			);
+			name = cells;
+			sourceTree = "<group>";
+		};
+		975CA3781EAE24F500A60F65 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				97666CE81EAF5C83003D22C9 /* markerView */,
+				975CA3791EAE255500A60F65 /* NavigationView.h */,
+				975CA37A1EAE255500A60F65 /* NavigationView.m */,
+				975CA37C1EAE3D3100A60F65 /* FuelListView.h */,
+				975CA37D1EAE3D3100A60F65 /* FuelListView.m */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		975CA37F1EAE407C00A60F65 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				975CA3801EAE40AB00A60F65 /* FuelStation.h */,
+				975CA3811EAE40AB00A60F65 /* FuelStation.m */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+		975CA3831EAE456B00A60F65 /* managers */ = {
+			isa = PBXGroup;
+			children = (
+				975CA3841EAE458400A60F65 /* ServerManager.h */,
+				975CA3851EAE458400A60F65 /* ServerManager.m */,
+			);
+			name = managers;
+			sourceTree = "<group>";
+		};
+		97666CE81EAF5C83003D22C9 /* markerView */ = {
+			isa = PBXGroup;
+			children = (
+				97666CE91EAF5C9D003D22C9 /* MarkerView.h */,
+				97666CEA1EAF5C9D003D22C9 /* MarkerView.m */,
+				97666CEB1EAF5C9D003D22C9 /* MarkerView.xib */,
+			);
+			name = markerView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		975CA3591EADE2A500A60F65 /* Fuel Buddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 975CA3711EADE2A500A60F65 /* Build configuration list for PBXNativeTarget "Fuel Buddy" */;
+			buildPhases = (
+				102937BBDB3AE0D325554DA6 /* [CP] Check Pods Manifest.lock */,
+				975CA3561EADE2A500A60F65 /* Sources */,
+				975CA3571EADE2A500A60F65 /* Frameworks */,
+				975CA3581EADE2A500A60F65 /* Resources */,
+				7C7BD6DA9A04106C4595CB1A /* [CP] Embed Pods Frameworks */,
+				EC7B24A60CB675F2D49FB635 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fuel Buddy";
+			productName = "Fuel Buddy";
+			productReference = 975CA35A1EADE2A500A60F65 /* Fuel Buddy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		975CA3521EADE2A500A60F65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = sxsasha;
+				TargetAttributes = {
+					975CA3591EADE2A500A60F65 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Y2Y3UF8R2H;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 975CA3551EADE2A500A60F65 /* Build configuration list for PBXProject "Fuel Buddy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 975CA3511EADE2A500A60F65;
+			productRefGroup = 975CA35B1EADE2A500A60F65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				975CA3591EADE2A500A60F65 /* Fuel Buddy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		975CA3581EADE2A500A60F65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97666CED1EAF5C9D003D22C9 /* MarkerView.xib in Resources */,
+				975CA36D1EADE2A500A60F65 /* LaunchScreen.storyboard in Resources */,
+				975CA36A1EADE2A500A60F65 /* Assets.xcassets in Resources */,
+				975CA3681EADE2A500A60F65 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		102937BBDB3AE0D325554DA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7C7BD6DA9A04106C4595CB1A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fuel Buddy/Pods-Fuel Buddy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC7B24A60CB675F2D49FB635 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fuel Buddy/Pods-Fuel Buddy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		975CA3561EADE2A500A60F65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				975CA37E1EAE3D3100A60F65 /* FuelListView.m in Sources */,
+				975CA3651EADE2A500A60F65 /* ViewController.m in Sources */,
+				975CA3621EADE2A500A60F65 /* AppDelegate.m in Sources */,
+				975CA3771EAE025B00A60F65 /* FuelStationCell.m in Sources */,
+				975CA3861EAE458400A60F65 /* ServerManager.m in Sources */,
+				975CA37B1EAE255500A60F65 /* NavigationView.m in Sources */,
+				975CA3821EAE40AB00A60F65 /* FuelStation.m in Sources */,
+				975CA35F1EADE2A500A60F65 /* main.m in Sources */,
+				97666CEC1EAF5C9D003D22C9 /* MarkerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		975CA3661EADE2A500A60F65 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				975CA3671EADE2A500A60F65 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		975CA36B1EADE2A500A60F65 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				975CA36C1EADE2A500A60F65 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		975CA36F1EADE2A500A60F65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		975CA3701EADE2A500A60F65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		975CA3721EADE2A500A60F65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBB2F39A23C6847DA07581C6 /* Pods-Fuel Buddy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y2Y3UF8R2H;
+				INFOPLIST_FILE = "Fuel Buddy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "iOSMegaTeam.Fuel-Buddy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		975CA3731EADE2A500A60F65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 425034F92C1B854E1CA3A54B /* Pods-Fuel Buddy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y2Y3UF8R2H;
+				INFOPLIST_FILE = "Fuel Buddy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "iOSMegaTeam.Fuel-Buddy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		975CA3551EADE2A500A60F65 /* Build configuration list for PBXProject "Fuel Buddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				975CA36F1EADE2A500A60F65 /* Debug */,
+				975CA3701EADE2A500A60F65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		975CA3711EADE2A500A60F65 /* Build configuration list for PBXNativeTarget "Fuel Buddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				975CA3721EADE2A500A60F65 /* Debug */,
+				975CA3731EADE2A500A60F65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 975CA3521EADE2A500A60F65 /* Project object */;
+}
